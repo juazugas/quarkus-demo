@@ -23,4 +23,5 @@ public class ExampleResource {
     public String hello(@QueryParam("name") Optional<String> name) {
         return "Hello " + name.orElse(defaultName);
     }
+    
 }
